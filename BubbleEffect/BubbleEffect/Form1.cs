@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Drawing.Drawing2D;
 
 namespace BubbleEffect
 {
@@ -14,13 +15,18 @@ namespace BubbleEffect
         public Form1()
         {
             InitializeComponent();
-            this.Paint += new PaintEventHandler(Form1_Paint);
+            
             
         }
 
         void Form1_Paint(object sender, PaintEventArgs e)
         {
            
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+          
         }
        
     }
